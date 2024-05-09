@@ -41,7 +41,7 @@ function PhoneOtpForm() {
         <button type="submit">Submit</button>
           </form> : <div>
                   <p>Enter the OTP send to Number {phoneNumber}</p>
-                  <OtpInput length={4} onOtpSubmit={onOtpSubmit} />
+                  <OtpInput length={6} onOtpSubmit={onOtpSubmit} />
           </div>}
     </div>
   );
