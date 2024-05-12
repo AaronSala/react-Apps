@@ -22,6 +22,8 @@ h1{
     display: flex;
     animation: slideToLeft 30s linear infinite;
     gap: 2rem;
+   
+    animation-fill-mode: both;
 }
 .slider img{
     width: 30rem;
@@ -30,18 +32,21 @@ h1{
     border-radius: 25px;
     border-image: gradient();
     transform: rotate(5deg);
+    transition: 1s;
 }
 img:nth-child(1){
     transform: rotate(5deg);
 }
 img:nth-child(2) {
     transform: rotate(-5deg);
+    
 }
 img:nth-child(3) {
     transform: rotate(5deg);
 }
 img:nth-child(4) {
     transform: rotate(-5deg);
+    
 }
 img:nth-child(5) {
     transform: rotate(5deg);
@@ -70,11 +75,10 @@ img:hover{
     }
 
     90% {
-        transform: translateX(-100%);
+        transform: translateX(-50%);
     }
     100.1%{
-    transform: translateX(0%);
+    transform: translateX(100%);
     }
-
-  
 }
+
