@@ -1,0 +1,25 @@
+.App {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  
+}
+
+.btn{
+  padding: 0.5rem 1.5rem;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+  background: #777;
+  color: white;
+
+}
+.btn:hover{
+  background-color: #222;
+  transition: 0.5s ease-in-out;
+}
+
+
+
+
