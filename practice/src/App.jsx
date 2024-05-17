@@ -1,21 +1,33 @@
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import './App.css'
 import Starts from './components/Start'
 
-
-
-
 function App() {
-  function buttonClicked(number){
-    console.log("the button was clicked")
-   }
+  const [span, setSpan] = useState(0)
+  const [theme, setTheme] =useState("green")
+  function onclickSub() {
+      setSpan(span - 1)
+  }
+  useEffect(()=> {
+    if (span < 0) {
+     setTheme("red")
+    } else {
+      setTheme("green");
+    }
+  },[span])
+  
+ 
+  function onclickAdd() {
+    setSpan(span + 1);
+  }
+
 
   return (
-    <div className="App">
-      <Starts label="userName" id="user" buttonClick={ buttonClicked} />
-      <Starts label="submit" id="submit" />
-
+    <div className="App" style={{background:   theme}}>
+      <button className="btn" onClick={onclickSub}>-</button>
+      <span>{ span}</span>
+      <button className="btn" onClick={onclickAdd}>+</button>
     </div>
   );
 }

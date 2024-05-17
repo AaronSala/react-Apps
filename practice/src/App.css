@@ -8,18 +8,24 @@
 
 .btn{
   padding: 0.5rem 1.5rem;
-  border-radius: 15px;
+  border-radius: 5px;
   outline: none;
   border: none;
-  background: #777;
-  color: white;
+  background: #ddd;
+  
+  font-size: 3rem;
 
 }
 .btn:hover{
   background-color: #222;
   transition: 0.5s ease-in-out;
+  color: white;
 }
 
+span{
+  font-size: 3rem;
+  margin: 1rem;
+}
 
 
 

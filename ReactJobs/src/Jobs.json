@@ -1,0 +1,77 @@
+[
+    {
+        "id": "1",
+        "title":"Senior Full stack developer",
+        "type": "Full-time",
+        "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sapiente temporibus suscipit cupiditate esse odio autem culpa, velit ab unde ducimus? Quae cumque sapiente provident voluptatem minus magnam ex quia ipsam veritatis, doloribus facilis dicta iusto beatae? Dolores, quia dolor.",
+        "Location": "Nairobi Kenya",
+        "ssalary": "$70k - 80k",
+        "company":{
+            "name":"The arfrim tech Solutions",
+            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sapiente temporibus suscipit cupiditate esse odio autem culpa, velit ab unde ducimus? Quae cumque sapiente provident voluptatem minus magnam ex quia ipsam veritatis, doloribus facilis dicta iusto beatae? Dolores, quia dolor",
+            "ontactEmail": "contact.gmail.com",
+            "contactPhone":"072222999"
+        }
+
+    },
+     {
+        "id": "2",
+        "title":"Senior Front end developer",
+        "type": "Full-time",
+        "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sapiente temporibus suscipit cupiditate esse odio autem culpa, velit ab unde ducimus? Quae cumque sapiente provident voluptatem minus magnam ex quia ipsam veritatis, doloribus facilis dicta iusto beatae? Dolores, quia dolor.",
+        "Location": "Nairobi Kenya",
+        "ssalary": "$70k - 80k",
+        "company":{
+            "name":"The arfrim tech Solutions",
+            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sapiente temporibus suscipit cupiditate esse odio autem culpa, velit ab unde ducimus? Quae cumque sapiente provident voluptatem minus magnam ex quia ipsam veritatis, doloribus facilis dicta iusto beatae? Dolores, quia dolor",
+            "ontactEmail": "contact.gmail.com",
+            "contactPhone":"072222999"
+        }
+
+    },
+     {
+        "id": "3",
+        "title":"Full stack developer",
+        "type": "Full-time",
+        "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sapiente temporibus suscipit cupiditate esse odio autem culpa, velit ab unde ducimus? Quae cumque sapiente provident voluptatem minus magnam ex quia ipsam veritatis, doloribus facilis dicta iusto beatae? Dolores, quia dolor.",
+        "Location": "Nairobi Kenya",
+        "ssalary": "$70k - 80k",
+        "company":{
+            "name":"The arfrim tech Solutions",
+            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sapiente temporibus suscipit cupiditate esse odio autem culpa, velit ab unde ducimus? Quae cumque sapiente provident voluptatem minus magnam ex quia ipsam veritatis, doloribus facilis dicta iusto beatae? Dolores, quia dolor",
+            "ontactEmail": "contact.gmail.com",
+            "contactPhone":"072222999"
+        }
+
+    },
+     {
+        "id": "4",
+        "title":"Devops stack developer",
+        "type": "Full-time",
+        "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sapiente temporibus suscipit cupiditate esse odio autem culpa, velit ab unde ducimus? Quae cumque sapiente provident voluptatem minus magnam ex quia ipsam veritatis, doloribus facilis dicta iusto beatae? Dolores, quia dolor.",
+        "Location": "Nairobi Kenya",
+        "ssalary": "$70k - 80k",
+        "company":{
+            "name":"The arfrim tech Solutions",
+            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sapiente temporibus suscipit cupiditate esse odio autem culpa, velit ab unde ducimus? Quae cumque sapiente provident voluptatem minus magnam ex quia ipsam veritatis, doloribus facilis dicta iusto beatae? Dolores, quia dolor",
+            "ontactEmail": "contact.gmail.com",
+            "contactPhone":"072222999"
+        }
+
+    },
+     {
+        "id": "5",
+        "title":"Software engineer",
+        "type": "Full-time",
+        "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sapiente temporibus suscipit cupiditate esse odio autem culpa, velit ab unde ducimus? Quae cumque sapiente provident voluptatem minus magnam ex quia ipsam veritatis, doloribus facilis dicta iusto beatae? Dolores, quia dolor.",
+        "Location": "Nairobi Kenya",
+        "ssalary": "$70k - 80k",
+        "company":{
+            "name":"The arfrim tech Solutions",
+            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sapiente temporibus suscipit cupiditate esse odio autem culpa, velit ab unde ducimus? Quae cumque sapiente provident voluptatem minus magnam ex quia ipsam veritatis, doloribus facilis dicta iusto beatae? Dolores, quia dolor",
+            "ontactEmail": "contact.gmail.com",
+            "contactPhone":"072222999"
+        }
+
+    }
+]
