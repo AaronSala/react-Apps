@@ -5,26 +5,24 @@ import "./Styles.css";
 
 import { useState } from "react";
 export default function Accordion() {
-    const [selected, setSelected] = useState(null);
-    const [enableMultiSelecion, setEnableMultiSelection] = useState(false);
-    const [multiple, setMultiple] = useState([]);
-    
+  const [selected, setSelected] = useState(null);
+  const [enableMultiSelecion, setEnableMultiSelection] = useState(false);
+  const [multiple, setMultiple] = useState([]);
 
   function handleSingleSelection(getCurrentId) {
-    
     setSelected(getCurrentId === selected ? null : getCurrentId);
   }
-    
-    function handleMultiSelection(getCurrentId) {
-        let cpyMutiple = [...multiple];
-        const findIndexOfCurrentId = cpyMutiple.indexOf(getCurrentId);
-        
-        if (findIndexOfCurrentId === -1) cpyMutiple.push(getCurrentId);
-        else cpyMutiple.splice(findIndexOfCurrentId, 1);
-        
-        setMultiple(cpyMutiple);
 
-    }
+  function handleMultiSelection(getCurrentId) {
+    let cpyMutiple = [...multiple];
+    const findIndexOfCurrentId = cpyMutiple.indexOf(getCurrentId);
+
+    if (findIndexOfCurrentId === -1) cpyMutiple.push(getCurrentId);
+    else cpyMutiple.splice(findIndexOfCurrentId, 1);
+
+    setMultiple(cpyMutiple);
+    console.log(selected, multiple);
+  }
 
   return (
     <div className="wrapper">
@@ -37,8 +35,8 @@ export default function Accordion() {
             <div className="item" key={dataItem.id}>
               <div
                 onClick={
-                  handleMultiSelection()
-                    ? dataItem.id
+                  enableMultiSelecion
+                    ? handleMultiSelection(dataItem.id)
                     : () => handleSingleSelection(dataItem.id)
                 }
                 className="title"
@@ -47,7 +45,7 @@ export default function Accordion() {
 
                 <span>+</span>
               </div>
-              {selected === dataItem.id ? (
+              {selected === dataItem.id || multiple.indexOf(dataItem.id) !==-1 ? (
                 <div className="content">{dataItem.answer}</div>
               ) : null}
             </div>
