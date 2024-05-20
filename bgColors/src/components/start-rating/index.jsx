@@ -19,7 +19,8 @@ function StarRating({ noOfStars = 5 }) {
   }
 
   return (
-    <div className="star-rating">
+      <div className="star-rating">
+          <h1>Star Rating</h1>
       {[...Array(noOfStars)].map((_, index) => {
         index +=1;
         return (
